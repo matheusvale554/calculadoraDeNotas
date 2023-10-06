@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CALCULADORA DE MEDIA</title>
+  <script src="./index.js"></script>
+</head>
+<body>
+  <h1>CALCULADORA DE MEDIA</h1>
+  <hr>
+
+  <h2>Insira suas notas abaixo</h2>
+  <section>
+    <label for="trabalho">Nota do trabalho:</label>
+    <input min ='0' max = '10' type="number" name="trabalho" id="trabalho">
+    <br>
+    <br>
+    <label for="prova">Nota da prova:</label>
+    <input min = '0' max = '10' type="number" name="prova" id="prova">
+    <br>
+ <span id='rec'>
+
+ </span>
+ <br>
+    <button id="btn" onclick="media(this.parentNode)">Calcular</button>
+  </section>
+</body>
+
+</html>
